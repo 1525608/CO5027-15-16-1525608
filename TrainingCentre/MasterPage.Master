@@ -1,11 +1,11 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="TrainingCentre.Site1" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="TrainingCentre.Site1" %>
 
 <!DOCTYPE html>
 
 <html>
 <head runat="server">
     <title>Training Centre</title> 
-    <link href="Styles/StyleSheet1.css" rel="stylesheet" />
+   
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -14,14 +14,14 @@
         <div>
             <div id="wrapper">
                 <div id="banner">
-                    <asp:image runat="server"></asp:image>
+                    <asp:image runat="server" ImageUrl="~/Images/banner1.jpg" Width="100%"></asp:image>
                 </div>
                 <div id="navigation">
                     <ul id="nav">
-                         <li><asp:hyperlink ID="hyperlink1" runat="server">HOME</asp:hyperlink></li>
+                         <li><asp:hyperlink ID="hyperlink1" runat="server">ABOUT</asp:hyperlink></li>
                          <li><asp:hyperlink ID="hyperlink2" runat="server">SPORTS</asp:hyperlink></li>
-                         <li><asp:hyperlink ID="hyperlink3" runat="server">PRICING</asp:hyperlink></li>
-                         <li><asp:hyperlink ID="hyperlink4" runat="server">BOOKINGS</asp:hyperlink></li>
+                         <li><asp:hyperlink ID="hyperlink3" runat="server">PRICE</asp:hyperlink></li>
+                         <li><asp:hyperlink ID="hyperlink4" runat="server">BOOKING</asp:hyperlink></li>
                          <li><asp:hyperlink ID="hyperlink5" runat="server">CONTACT US</asp:hyperlink></li>                                                 
                     </ul>
                     <div id="content">
@@ -33,5 +33,6 @@
             
         </div>
     </form>
+    
 </body>
 </html>
