@@ -6,41 +6,41 @@
 <head runat="server">
     <title>Training Centre</title> 
    <link rel="stylesheet" href="Styles/StyleSheet1.css" type="text/css"/>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+   
 </head>
 
 <body>
     <form id="form1" runat="server">
-        <div>
+        
             <div id="wrapper">
                 <div id="banner">
-                    <asp:image runat="server" Height="111%" ImageUrl="~/Images/banner1.jpg" Width="100%" BorderStyle="Groove" ImageAlign="Middle"></asp:image>
+                   
                 </div>
                 <div id="navigation">
                     <ul id="nav">
-                         <li><asp:hyperlink ID="hyperlink1" runat="server">ABOUT</asp:hyperlink></li>
-                         <li><asp:hyperlink ID="hyperlink2" runat="server">SPORTS</asp:hyperlink></li>
-                         <li><asp:hyperlink ID="hyperlink3" runat="server">PRICE</asp:hyperlink></li>
-                         <li><asp:hyperlink ID="hyperlink4" runat="server">BOOKING</asp:hyperlink></li>
-                         <li><asp:hyperlink ID="hyperlink5" runat="server">CONTACT US</asp:hyperlink></li>                                                 
+                         <li>a href</li>
+                         <li><asp:hyperlink ID="hyperlink2" runat="server">FACILITIES</asp:hyperlink></li>
+                         <li><asp:hyperlink ID="hyperlink3" runat="server">BOOKINGS</asp:hyperlink></li>
+                         <li><asp:hyperlink ID="hyperlink4" runat="server">CONTACT US</asp:hyperlink></li>
+                         <li><asp:hyperlink ID="hyperlink5" runat="server">ADMINISTRATION</asp:hyperlink></li>                                                 
                     </ul>
-                    <div id="content">
-                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                            </asp:ContentPlaceHolder>
-
-                    <footer>
-                                       <p>Aflah 2017</p>   
-                                                     </footer>
-
-                    </div>
+                <div id="content"   
+                    
+                 </div>
                 </div>
-            </div>
-            
-        </div>
+                <div id="sidebar"
+
+               </div>
+
+                          
     </form>
     
-</body>
+               <div id="footer">
+                   <p>Copyright @ Aflah2017</p>
+               </div>
+
+           
+    </body>
 
     
 

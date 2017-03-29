@@ -1,30 +1,37 @@
 ﻿body 
 {
 
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;
+    font-family:Verdana, Arial, sans-serif;
     background-color:blanchedalmond;
 }
    
 
 #wrapper 
 {
-    width:1100px;
-    margin:auto;
-    padding-bottom:20px;
+    width:1080px;
+    margin:0 auto;
+    padding-bottom:10px;
+    border:5px solid antiquewhite;
     background-color:antiquewhite;
-    height: 316px;
+    
 }
 
-#banner
+#banner 
 {
-
+    height:200px;
+    border: 3px solid antiquewhite;
+    background-image:
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
 #navigation
 {
-    height:69px;
-    }
+    height:60px;
+    border:3px solid antiquewhite;
+    margin-top: 20px;
+    background-image: url('../Images/nav_background.jpg');
+}
 
 #nav
 {
@@ -36,60 +43,54 @@
 
 #nav ul
 {
-    display:none;
     list-style:none;
-   
+    margin:0;
+    padding:0;
+    width:auto;
+    display:none;
 }
 
 #nav li
 {
+    font-size:24px;
     float:left;
-    display:block;
-    margin-top:15px;
-    text-transform:uppercase;
-    padding:0px 20px 0px 20px;
-    border-left:1px solid #808080;
-    width: 169px;
-    height: 21px;
-   
-   
+    position:relative;
+    top: 19px;
+    left: 36px;
+    width: 181px;
 }
 
-#nav a:link, #nav a:visited, #nav a:active
-{
-    display:block;
-    color:indianred;
-    text-decoration:none;
-}
+
+  
 
 #nav a:hover
 {
-    background-color:yellow;
+    color:mediumpurple;
 }
 
 #content
 {
-    padding:20px;
-    min-height:400px;
+    float:left;
+    width:750px;
+    margin:20px 0 20px 0;
+    padding:10px;
+    border:3px solid antiquewhite;
 }
 
-#footer
+#sidebar
 {
+    float:right;
+    width:250px;
+    height:400px;
+    margin:20px 10px 20px 10px;
+    border:3px solid antiquewhite
+}
+
+#footer {
     clear: both;
-    padding: 10px 0;
-    border-top: 2px black dotted;
-    position:fixed;
+    width: auto;
+    height:40px;
+    margin-top: 20px;
+    background-image: url('../Images/nav_background.jpg');
 }
-
-#footer p 
-{
-    text-align: center;
-    font-size: 14px;
-    color: black;
-    font-weight: bold;
-
-}
-
-
-
 

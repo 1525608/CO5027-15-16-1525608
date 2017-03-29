@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\banner1.jpg" />
+    <Content Include="Images\nav_background.jpg" />
     <Content Include="packages.config" />
     <Content Include="MasterPage.Master" />
     <None Include="Web.Debug.config">
@@ -96,6 +97,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="NewFolder2\" />
+    <Folder Include="Pages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
